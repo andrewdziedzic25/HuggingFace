@@ -3,7 +3,6 @@ from transformers import pipeline
 import time
 
 sentiment_classifier = pipeline("text-classification", return_all_scores=True)
-Link to the app - https://huggingface.co/spaces/andrewdziedzic/sentimentclassifier
 
 def classifier(text):
     pred = sentiment_classifier(text)
