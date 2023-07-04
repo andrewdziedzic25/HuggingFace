@@ -9,3 +9,5 @@ app_file: app.py
 pinned: false
 license: mit
 ---
+
+Link to Hugging Face Space App: https://huggingface.co/spaces/andrewdziedzic/sentimentclassifier
